@@ -1,0 +1,24 @@
+﻿<html>
+<head>
+    <meta charset="utf-8" />
+</head>
+<body>
+<div ng-app="svgDesignerApp" ng-controller="appController">
+    <svg id="svg" width="800" height="800">
+
+        <g class="background">
+            <rect x="0" y="0" width="800" height="800" fill-opacity="0"></rect>
+        </g>
+        <g editable="true" class="element">
+            <image x="0" y="0" width="382" height="75" xlink:href="https://pdf.buildasign.com//DynamicImages.ashx?action=GetImage&useHighQualityPNGs=true&Height=75&Width=382&ServerImageSrc=//upload/galleries/Rounded_Rectangle.pdf&Flip=false&IsRecolored=false&Options=&Color=HEX002395&Color2=HEXFFFFFF&ScaleFactor=1&T=58484A6D31796542746A6265566F43714C6A724242513D3D&StoreId=1"/>
+        </g>
+    </svg>
+    <designregion></designregion>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.4.1/snap.svg.js"></script>
+
+<script src="https://cdn.jsdelivr.net/lodash/4.13.1/lodash.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+<script src="appScripts/bundle.js"></script>
+</body>
+</html>

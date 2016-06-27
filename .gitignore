@@ -1,0 +1,4 @@
+SvgDesignerClient/node_modules/*
+SvgDesignerClient/typings/*
+SvgDesigner/*
+SvgDesignerClient/bin
